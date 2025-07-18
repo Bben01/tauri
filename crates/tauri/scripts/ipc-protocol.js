@@ -78,7 +78,7 @@
         payload,
         __TAURI_INVOKE_KEY__
       })
-      window.ipc.postMessage(data)
+      window.ipc_handler.postMessage(data)
     }
   }
 
